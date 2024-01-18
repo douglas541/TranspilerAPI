@@ -17,7 +17,7 @@ public static class HTMLTranspiler
         htmlDoc.DocumentNode.AppendChild(doctype);
 
         var htmlNode = HtmlNode.CreateNode("<html></html>");
-        htmlNode.Attributes.Add("lang", "pt");
+        htmlNode.Attributes.Add("lang", "pt-BR");
         htmlDoc.DocumentNode.AppendChild(htmlNode);
 
         var headNode = HtmlNode.CreateNode("<head></head>");
